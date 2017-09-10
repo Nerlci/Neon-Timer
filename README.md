@@ -1,39 +1,31 @@
-#NeTimer
+# NeTimer
 
-##NeTimer是什么？
-NeTimer是一款用Arduino制作的魔方计时器，致力于降低魔方计时器的成本，让魔方计时器更加普及。
+## What is NeTimer?
+NeTimer is an cube timer made by Arduino,trying let the price of the cube timer get lower,let the cube timer be more popular
 
-##我想要一台NeTimer，我需要准备什么？
-* 一块Arduino开发板
-* 一块LCD1602
-* 一颗轻触开关
-* 两个触摸传感器
-* 10~100K电阻若干
-* 一个拨动开关
-* 一块面包板
-* 一捆公对公、公对母杜邦线
-* 40P单排针
-* 三节5号电池盒  
-你可能还需要烙铁和锡丝来焊接LCD1602和Arduino的排针，USB转TTL线来为Arduino下载程序。
+## I want a NeTimer,what should I prepare?
+* An Arduino develope board
+* An LCD1602
+* A tact switch
+* Two touch sensor
+* lots of resistor between 10K to 100K
+* A toggle switch
+* A breadboard
+* A bundle of Dupont Line
+* 40 Pin Header
+* Three section AA battery box
+You may also need an electric iron and some solder wire to weld the Pin Header of LCD1602 and Arduino,and an USB-TTL line to upload progran for Arduino.
 
-##我已经准备好了这些东西，我该怎么接线？
-接线教程请见[接线教程](https://git.oschina.net/dreamspr/NeTimer/blob/master/wiring.md)。
+## I have prepared these things so how to wire?
+The wiring tutorial please view the [Wiring Tutorial](https://github.com/Nerlci/NeTimer/blob/master/wiring.md)。
 
-##成品看上去是什么样？
-就像是这样<(￣ˇ￣)/!
+## What does the timer look like
+Just like this!<(￣ˇ￣)/
 
-##好了，一切完事，教教我怎么用呗？
-和普通的计时器使用一样，计时器打开后双手放在触摸板上，Arduino亮起绿灯时松开触摸板，计时器即开始计时，再次将双手放在触摸板上即可停止计时。按下轻触开关即可清除成绩。
+## OK,all done,can you tell me how to use?
+Just like other timers,after turning it on，put your hands on the touch sensor,release the touch sensor when the green LED on the Arduino turned on,and the timer started to time.Put your both hands on the sensor again to stop timing.Click the tact switch to clean the time.
 
-##我想要记录下自己的成绩，有什么方法呢？
-目前NeTimer还没有记录成绩的功能，记录成绩现在有两种方法
-1. 使用DCTimer，csTimer等计时器的手动输入功能进行记录
-2. 计时器在停止时会通过串口以9600波特率发送成绩，有兴趣的同学可以写上位机程序进行配合
-
-##这个项目太棒了，我该怎么支持你们呢？
-捐助请见[关于捐助](https://git.oschina.net/dreamspr/NeTimer/blob/master/donate.md)。
-
-##这个项目就只是做一个计时器吗？
-不是！
-1. 我们一直致力于降低计时器成本以及增加计时器的实用性，更多的功能也正在开发中，敬请期待~
-2. 作为魔友，我们同样也从大量的使用中发现问题，对于传统计时器的部分细节进行了调整，力求让NeTimer成为最好用，最方便的计时器~
+## How can I record my time?
+Now NeTimer doesn't have the function to record the time now,there's two ways to record:
+1. Use the manual input function of DCTimer,csTimer etc. to record
+2. When stop timing the timer will send the time by serial with port baud rate 9600,you can write an program to record the time.
