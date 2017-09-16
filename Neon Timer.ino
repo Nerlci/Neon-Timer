@@ -9,7 +9,7 @@ void setup() {
  pinMode(13,OUTPUT);
  lcd.begin(16,2);
  lcd.setCursor(0,0);
- lcd.print("  NeTimer Lite");
+ lcd.print("   Neon Timer");
  lcd.setCursor(0,1);
  lcd.print("           0.000");
  Serial.begin(9600);

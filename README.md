@@ -1,9 +1,9 @@
-# NeTimer
+# Neon Timer
 
-## What is NeTimer?
-NeTimer is an cube timer made by Arduino,trying let the price of the cube timer get lower,let the cube timer be more popular
+## What is Neon Timer?
+Neon Timer is an cube timer made by Arduino,trying let the price of the cube timer get lower,let the cube timer be more popular
 
-## I want a NeTimer,what should I prepare?
+## I want a Neon Timer,what should I prepare?
 * An Arduino develope board
 * An LCD1602
 * A tact switch
@@ -19,7 +19,7 @@ You may also need an electric iron and some solder wire to weld the Pin Header o
 ## I have prepared these things so how to wire?
 The wiring tutorial please view the [Wiring Tutorial](https://github.com/Nerlci/NeTimer/blob/master/wiring.md)。
 
-## What does the timer look like
+## What does the timer look like?
 Just like this!<(￣ˇ￣)/
 
 ## OK,all done,can you tell me how to use?
