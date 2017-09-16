@@ -17,7 +17,7 @@ Neon Timer is an cube timer made by Arduino,trying let the price of the cube tim
 You may also need an electric iron and some solder wire to weld the Pin Header of LCD1602 and Arduino,and an USB-TTL line to upload progran for Arduino.
 
 ## I have prepared these things so how to wire?
-The wiring tutorial please view the [Wiring Tutorial](https://github.com/Nerlci/NeTimer/blob/master/wiring.md)。
+The wiring tutorial please view the [Wiring Tutorial](https://github.com/Nerlci/Neon-Timer/blob/master/wiring.md)。
 
 ## What does the timer look like?
 Just like this!<(￣ˇ￣)/
