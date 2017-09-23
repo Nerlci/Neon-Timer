@@ -5,4 +5,4 @@
 
 2. __Wire according to the Frizing__
 
-Download [Frizing](http://fritzing.org/download/),open ./NeTimer.fzz,wire according to the file.
+Download [Frizing](http://fritzing.org/download/),open ./Neon Timer.fzz,wire according to the file.
