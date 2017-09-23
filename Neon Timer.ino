@@ -1,3 +1,4 @@
+//  Copyright(C) 2017 Ruining Chen, all right reversed.
 #include <LiquidCrystal.h>
 #include <string.h>
 LiquidCrystal lcd(12,11,5,4,3,2);
