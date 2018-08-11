@@ -1,4 +1,4 @@
-//  Copyright(C) 2018 Ruining Chen, all right reversed.
+//  Copyright(C) 2018 Nerlci_, all right reversed.
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>
 #include <string.h>
